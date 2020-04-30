@@ -15,7 +15,7 @@ A new Flutter bugly plugin.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'Bugly'
+  s.dependency 'Bugly', :git => 'https://gitee.com/ZDFoundataion/Bugly-iOS.git', :tag => '2.5.2'
   s.static_framework = true
 
   s.ios.deployment_target = '8.0'
